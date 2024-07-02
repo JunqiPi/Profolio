@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueris.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Lily Li</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">关于 About </a></li>
+                <li><a href="#experience">经验 Experience </a></li>
+                <li><a href="#recommendation">推荐 Recommendation </a></li>
+                <li><a href="#contact">联系 Contact </a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamberger-nav">
+        <div class="logo">Lily Li</div>
+        <div class="hamberger-menu">
+            <div class="hamberger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">关于 About </a></li>
+                <li><a href="#experience" onclick="toggleMenu()">经验 Experience</a></li>
+                <li><a href="#recommendation" onclick="toggleMenu()">推荐 Recommendation </a></li>
+                <li><a href="#contact" onclick="toggleMenu()">联系 Contact </a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/profile-pic.png" alt="Lily Profile pic"/>
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">您好，我是 &nbsp;  Hello, I'm     </p>
+            <h1 class="title">Lily Li</h1>
+            <p class="section_text_p2">您的房地产经理 &nbsp; Real Estate Agent</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Me
+                </button>
+            </div>
+            <div id="social_container">
+                <img src="./assets/linkedin.png" alt="my_linkedIn" class="icon" onclick="location.href='https://www.linkedin.com/in/junqipi/'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me&nbsp; 关于我</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="./assets/about1.jpg"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>经验 Experience</h3>
+                <p>4+ years <br />地产经理 Realtor</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>学历 Education</h3>
+                <p>本科 B.Sc. Bachelors Degree<br />研究生 M.Sc. Masters Degree</p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                我是Lily，您专业且经验丰富的房地产经纪人。热衷于将您的梦想变成现实家园！凭借多年在房地产市场的经验，我致力于提供个性化服务，引导您完成买卖过程的每一个步骤。无论您是首次购房者还是经验丰富的投资者，我都会为您打造顺利而成功的房地产之旅。让我们一起将您的房地产愿望变成现实吧！
+                <br><br>I'm Lily, your dedicated and experienced realtor with a passion for turning dreams into homes. With years of expertise in the real estate market, I am committed to providing personalized service, guiding you through every step of the buying or selling process. Whether you're a first-time buyer or a seasoned investor, I am here to make your real estate journey smooth and successful. Let's turn your property aspirations into reality together!
+            </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience &nbsp; 我的经验</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">沟通 Communication</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>多语言沟通</h3>
+                    <p>multi-languages</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>时间管理预约与分配</h3>
+                    <p>Time management</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>详细计划</h3>
+                    <p>Planned</p>
+                  </div>
+                </article>
+                
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">规划 Knowledge</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>地产与商业规划</h3>
+                    <p>Business development</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>地产与学区规划</h3>
+                    <p>Academic Area</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>地产与工厂区规划</h3>
+                    <p>Industry Locations</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+      <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Recommendations Houses &nbsp; 热门推荐</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/house1.webp"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">House 1</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.remax.com/ca/temple-city/home-details/5601-pal-mal-ave-temple-city-ca-91780/15636472555778219111/M00000093/AR24000685'"
+                >
+                  Details
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/house1.webp"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">House 2</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.remax.com/ca/temple-city/home-details/5601-pal-mal-ave-temple-city-ca-91780/15636472555778219111/M00000093/AR24000685'"
+                >
+                Details
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/house1.webp"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">House 3</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.remax.com/ca/temple-city/home-details/5601-pal-mal-ave-temple-city-ca-91780/15636472555778219111/M00000093/AR24000685'"
+                >
+                Details
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me &nbsp; 联系我</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:Homesbylily@hotmail.com">Homesbylily@hotmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+    <script src="script.js"></script>
+</body>
+</html>
